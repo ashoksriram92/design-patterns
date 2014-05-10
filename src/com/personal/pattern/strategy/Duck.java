@@ -4,9 +4,12 @@ package com.personal.pattern.strategy;
  *
  * @author ashoksrirampandian
  */
-public class Duck {
-    public void quack() {
-        System.out.println("Quack");
+public abstract class Duck {
+    protected QuackBehaviour quackBehaviour;
+    protected FlyBehaviour flyBehaviour;
+    
+    public void performQuack() {
+        quackBehaviour.quack();
     }
     
     public void swim() {
@@ -17,7 +20,7 @@ public class Duck {
         System.out.println("Draws a duck");
     }
     
-    public void fly() {
-        System.out.println("Duck is flying!");
+    public void performFly() {
+        flyBehaviour.fly();
     }
 }
