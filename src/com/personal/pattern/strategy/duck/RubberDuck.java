@@ -1,4 +1,7 @@
-package com.personal.pattern.strategy;
+package com.personal.pattern.strategy.duck;
+
+import com.personal.pattern.strategy.behaviour.Squeak;
+import com.personal.pattern.strategy.behaviour.FlyNoWay;
 
 /**
  *

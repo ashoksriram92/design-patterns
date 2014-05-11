@@ -1,4 +1,4 @@
-package com.personal.pattern.strategy;
+package com.personal.pattern.strategy.behaviour;
 
 /**
  *
